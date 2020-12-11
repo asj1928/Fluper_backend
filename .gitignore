@@ -1,0 +1,10 @@
+node_modules
+Api
+
+# exclude everything
+dashboard/*
+
+# exception to the rule
+!dashboard/.gitkeep 
+
+.env
