@@ -7,13 +7,7 @@ const bcrypt = require('bcrypt');
  */
 
 class User {
-  /**
-   * @function - Get all the registered users from the db
-   *
-   * @param - Express.req , Express.res
-   *
-   * @returns - List of registered users
-   */
+
 
   async getAllUsers(req, res) {
 
@@ -75,19 +69,6 @@ class User {
 
   }
 
-  async getOneUserAndRemove(req, res) {
-    let userId = req.params.id;
-    let user = await Users.findByIdAndRemove(userId)
-    let status = false
-    if (user) {
-      status = true
-    }
-    res.status(200).send({
-      status: status,
-      user: user,
-    });
-
-  }
 
   async createUser(req, res) {
     console.log(req.files)
@@ -152,12 +133,13 @@ class User {
     // check user for admin
     let isAdmin = user.isAdmin
     console.log("🔥 this user is Admin 🔥");
+    user.password
 
     const token = user.generateAuthToken()
     return res.status(200).send({
       status: true,
-      username: req.body.email,
-      user: user,
+      email: req.body.email,
+      name: user.name,
       token: token
     })
   }

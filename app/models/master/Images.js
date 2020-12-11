@@ -13,8 +13,6 @@ const imageSchema = new Schema({
 
     orignalName: {
         type: String,
-        maxlength: 50,
-        minlength: 1,
         required: true
     },
     tags: [{

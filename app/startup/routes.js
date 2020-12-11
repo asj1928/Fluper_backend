@@ -30,6 +30,7 @@ module.exports = function (server) {
      * Server Routes here
      */
     server.use("/api/v1/users", require("../routes/master/user.routes"));
+    server.use("/api/v1/images", require("../routes/master/image.routes"));
 
 
     // ---- SERVE STATIC FILES ---- //

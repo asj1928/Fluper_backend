@@ -7,27 +7,16 @@ const admin = require('../../middlewares/admin')
 
 const user = new User();
 
-/**
- * @type Express.Router
- *
- * @api - /api/v1/users/ @method - GET
- */
 
-router.get("/", [auth], user.getAllUsers);
 
-/**
- * @type Express.Router
- *
- * @api - /api/v1/users/create @method - POST
- */
+router.get("/", [auth, admin], user.getAllUsers);
+
 
 router.post("/",/* [auth, admin],*/user.createUser);
 
 router.get("/:id", [auth, admin], user.getOneUser)
 
 router.put("/:id", [auth, admin], user.getOneUserAndUpdate)
-
-router.delete("/:id", [auth, admin], user.getOneUserAndRemove)
 
 router.post("/auth", user.authenticate);
 

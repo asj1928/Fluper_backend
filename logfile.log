@@ -2408,3 +2408,109 @@
 {"expose":true,"statusCode":400,"status":400,"body":"{\n    \"email\" : \"asjodha22@gmail.com\",\n    \"password\" : \"admin@123\",\n    \"name\" : \"aman\",\t\n    \"username\" : \"ajay1928\",\t\n\t\n}","type":"entity.parse.failed","level":"error","message":"Unexpected token } in JSON at position 123Unexpected token } in JSON at position 123","stack":"SyntaxError: Unexpected token } in JSON at position 123\n    at JSON.parse (<anonymous>)\n    at parse (/home/ajay/Desktop/Flupper/backend/node_modules/body-parser/lib/types/json.js:89:19)\n    at /home/ajay/Desktop/Flupper/backend/node_modules/body-parser/lib/read.js:121:18\n    at invokeCallback (/home/ajay/Desktop/Flupper/backend/node_modules/raw-body/index.js:224:16)\n    at done (/home/ajay/Desktop/Flupper/backend/node_modules/raw-body/index.js:213:7)\n    at IncomingMessage.onEnd (/home/ajay/Desktop/Flupper/backend/node_modules/raw-body/index.js:273:7)\n    at IncomingMessage.emit (events.js:215:7)\n    at endReadableNT (_stream_readable.js:1183:12)\n    at processTicksAndRejections (internal/process/task_queues.js:80:21)"}
 {"message":"Connected to MongoDB...","level":"info"}
 {"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"level":"error","message":"Cannot read property 'originalname' of undefinedCannot read property 'originalname' of undefined","stack":"TypeError: Cannot read property 'originalname' of undefined\n    at createImage (/home/ajay/Desktop/Flupper/backend/app/controllers/MasterController/image.controller.js:62:47)\n    at newFn (/home/ajay/Desktop/Flupper/backend/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/home/ajay/Desktop/Flupper/backend/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/ajay/Desktop/Flupper/backend/node_modules/express/lib/router/route.js:137:13)\n    at Array.<anonymous> (/home/ajay/Desktop/Flupper/backend/node_modules/multer/lib/make-middleware.js:53:37)\n    at listener (/home/ajay/Desktop/Flupper/backend/node_modules/on-finished/index.js:169:15)\n    at onFinish (/home/ajay/Desktop/Flupper/backend/node_modules/on-finished/index.js:100:5)\n    at callback (/home/ajay/Desktop/Flupper/backend/node_modules/ee-first/index.js:55:10)\n    at IncomingMessage.onevent (/home/ajay/Desktop/Flupper/backend/node_modules/ee-first/index.js:93:5)\n    at IncomingMessage.emit (events.js:215:7)\n    at endReadableNT (_stream_readable.js:1183:12)\n    at processTicksAndRejections (internal/process/task_queues.js:80:21)"}
+{"level":"error","message":"uuid is not defineduuid is not defined","stack":"ReferenceError: uuid is not defined\n    at createImage (/home/ajay/Desktop/Flupper/backend/app/controllers/MasterController/image.controller.js:68:23)\n    at newFn (/home/ajay/Desktop/Flupper/backend/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/home/ajay/Desktop/Flupper/backend/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/ajay/Desktop/Flupper/backend/node_modules/express/lib/router/route.js:137:13)\n    at Array.<anonymous> (/home/ajay/Desktop/Flupper/backend/node_modules/multer/lib/make-middleware.js:53:37)\n    at listener (/home/ajay/Desktop/Flupper/backend/node_modules/on-finished/index.js:169:15)\n    at onFinish (/home/ajay/Desktop/Flupper/backend/node_modules/on-finished/index.js:100:5)\n    at callback (/home/ajay/Desktop/Flupper/backend/node_modules/ee-first/index.js:55:10)\n    at IncomingMessage.onevent (/home/ajay/Desktop/Flupper/backend/node_modules/ee-first/index.js:93:5)\n    at IncomingMessage.emit (events.js:215:7)\n    at endReadableNT (_stream_readable.js:1183:12)\n    at processTicksAndRejections (internal/process/task_queues.js:80:21)"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"level":"error"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"level":"error"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"level":"error"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"level":"error","message":"Cannot read property 'status' of undefinedCannot read property 'status' of undefined","stack":"TypeError: Cannot read property 'status' of undefined\n    at handleError (/home/ajay/Desktop/Flupper/backend/app/controllers/MasterController/image.controller.js:20:9)\n    at /home/ajay/Desktop/Flupper/backend/app/controllers/MasterController/image.controller.js:81:17\n    at finalCallback (/home/ajay/Desktop/Flupper/backend/node_modules/azure-storage/lib/services/blob/blobservice.core.js:4675:7)\n    at /home/ajay/Desktop/Flupper/backend/node_modules/azure-storage/lib/common/services/storageserviceclient.js:1016:11\n    at processResponseCallback (/home/ajay/Desktop/Flupper/backend/node_modules/azure-storage/lib/services/blob/blobservice.core.js:4678:5)\n    at Request.processResponseCallback [as _callback] (/home/ajay/Desktop/Flupper/backend/node_modules/azure-storage/lib/common/services/storageserviceclient.js:329:13)\n    at Request.self.callback (/home/ajay/Desktop/Flupper/backend/node_modules/request/request.js:185:22)\n    at Request.emit (events.js:210:5)\n    at Request.<anonymous> (/home/ajay/Desktop/Flupper/backend/node_modules/request/request.js:1154:10)\n    at Request.emit (events.js:210:5)\n    at IncomingMessage.<anonymous> (/home/ajay/Desktop/Flupper/backend/node_modules/request/request.js:1076:12)\n    at Object.onceWrapper (events.js:299:28)\n    at IncomingMessage.emit (events.js:215:7)\n    at endReadableNT (_stream_readable.js:1183:12)\n    at processTicksAndRejections (internal/process/task_queues.js:80:21)"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"level":"error","message":"No default engine was specified and no extension was provided.No default engine was specified and no extension was provided.","stack":"Error: No default engine was specified and no extension was provided.\n    at new View (/home/ajay/Desktop/Flupper/backend/node_modules/express/lib/view.js:61:11)\n    at Function.render (/home/ajay/Desktop/Flupper/backend/node_modules/express/lib/application.js:570:12)\n    at ServerResponse.render (/home/ajay/Desktop/Flupper/backend/node_modules/express/lib/response.js:1012:7)\n    at handleError (/home/ajay/Desktop/Flupper/backend/app/controllers/MasterController/image.controller.js:21:9)\n    at /home/ajay/Desktop/Flupper/backend/app/controllers/MasterController/image.controller.js:81:17\n    at finalCallback (/home/ajay/Desktop/Flupper/backend/node_modules/azure-storage/lib/services/blob/blobservice.core.js:4675:7)\n    at /home/ajay/Desktop/Flupper/backend/node_modules/azure-storage/lib/common/services/storageserviceclient.js:1016:11\n    at processResponseCallback (/home/ajay/Desktop/Flupper/backend/node_modules/azure-storage/lib/services/blob/blobservice.core.js:4678:5)\n    at Request.processResponseCallback [as _callback] (/home/ajay/Desktop/Flupper/backend/node_modules/azure-storage/lib/common/services/storageserviceclient.js:329:13)\n    at Request.self.callback (/home/ajay/Desktop/Flupper/backend/node_modules/request/request.js:185:22)\n    at Request.emit (events.js:210:5)\n    at Request.<anonymous> (/home/ajay/Desktop/Flupper/backend/node_modules/request/request.js:1154:10)\n    at Request.emit (events.js:210:5)\n    at IncomingMessage.<anonymous> (/home/ajay/Desktop/Flupper/backend/node_modules/request/request.js:1076:12)\n    at Object.onceWrapper (events.js:299:28)\n    at IncomingMessage.emit (events.js:215:7)"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"code":"ERR_HTTP_INVALID_STATUS_CODE","level":"error","message":"Invalid status code: errorInvalid status code: error","stack":"RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: error\n    at ServerResponse.writeHead (_http_server.js:241:11)\n    at ServerResponse.writeHead (/home/ajay/Desktop/Flupper/backend/node_modules/on-headers/index.js:44:26)\n    at ServerResponse._implicitHeader (_http_server.js:232:8)\n    at write_ (_http_outgoing.js:607:9)\n    at ServerResponse.end (_http_outgoing.js:717:5)\n    at ServerResponse.send (/home/ajay/Desktop/Flupper/backend/node_modules/express/lib/response.js:221:10)\n    at ServerResponse.json (/home/ajay/Desktop/Flupper/backend/node_modules/express/lib/response.js:267:15)\n    at ServerResponse.send (/home/ajay/Desktop/Flupper/backend/node_modules/express/lib/response.js:158:21)\n    at handleError (/home/ajay/Desktop/Flupper/backend/app/controllers/MasterController/image.controller.js:20:21)\n    at /home/ajay/Desktop/Flupper/backend/app/controllers/MasterController/image.controller.js:80:17\n    at finalCallback (/home/ajay/Desktop/Flupper/backend/node_modules/azure-storage/lib/services/blob/blobservice.core.js:4675:7)\n    at /home/ajay/Desktop/Flupper/backend/node_modules/azure-storage/lib/common/services/storageserviceclient.js:1016:11\n    at processResponseCallback (/home/ajay/Desktop/Flupper/backend/node_modules/azure-storage/lib/services/blob/blobservice.core.js:4678:5)\n    at Request.processResponseCallback [as _callback] (/home/ajay/Desktop/Flupper/backend/node_modules/azure-storage/lib/common/services/storageserviceclient.js:329:13)\n    at Request.self.callback (/home/ajay/Desktop/Flupper/backend/node_modules/request/request.js:185:22)\n    at Request.emit (events.js:210:5)"}
+{"code":"ERR_HTTP_INVALID_STATUS_CODE","level":"error","message":"Invalid status code: errorInvalid status code: error","stack":"RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: error\n    at ServerResponse.writeHead (_http_server.js:241:11)\n    at ServerResponse.writeHead (/home/ajay/Desktop/Flupper/backend/node_modules/on-headers/index.js:44:26)\n    at ServerResponse._implicitHeader (_http_server.js:232:8)\n    at write_ (_http_outgoing.js:607:9)\n    at ServerResponse.end (_http_outgoing.js:717:5)\n    at ServerResponse.send (/home/ajay/Desktop/Flupper/backend/node_modules/express/lib/response.js:221:10)\n    at ServerResponse.json (/home/ajay/Desktop/Flupper/backend/node_modules/express/lib/response.js:267:15)\n    at ServerResponse.send (/home/ajay/Desktop/Flupper/backend/node_modules/express/lib/response.js:158:21)\n    at handleError (/home/ajay/Desktop/Flupper/backend/app/controllers/MasterController/image.controller.js:20:21)\n    at /home/ajay/Desktop/Flupper/backend/app/controllers/MasterController/image.controller.js:80:17\n    at finalCallback (/home/ajay/Desktop/Flupper/backend/node_modules/azure-storage/lib/services/blob/blobservice.core.js:4675:7)\n    at /home/ajay/Desktop/Flupper/backend/node_modules/azure-storage/lib/common/services/storageserviceclient.js:1016:11\n    at processResponseCallback (/home/ajay/Desktop/Flupper/backend/node_modules/azure-storage/lib/services/blob/blobservice.core.js:4678:5)\n    at Request.processResponseCallback [as _callback] (/home/ajay/Desktop/Flupper/backend/node_modules/azure-storage/lib/common/services/storageserviceclient.js:329:13)\n    at Request.self.callback (/home/ajay/Desktop/Flupper/backend/node_modules/request/request.js:185:22)\n    at Request.emit (events.js:210:5)"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"errors":{"orignalName":{"properties":{"message":"Path `orignalName` (`9742892124953202-daniel-octavian-Wzj7rBxxMaw-unsplash.jpg`) is longer than the maximum allowed length (50).","type":"maxlength","maxlength":50,"path":"orignalName","value":"9742892124953202-daniel-octavian-Wzj7rBxxMaw-unsplash.jpg"},"kind":"maxlength","path":"orignalName","value":"9742892124953202-daniel-octavian-Wzj7rBxxMaw-unsplash.jpg"}},"_message":"Image validation failed","level":"error","message":"Image validation failed: orignalName: Path `orignalName` (`9742892124953202-daniel-octavian-Wzj7rBxxMaw-unsplash.jpg`) is longer than the maximum allowed length (50)."}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"errors":{"orignalName":{"properties":{"message":"Path `orignalName` (`7339228008392535-daniel-octavian-Wzj7rBxxMaw-unsplash.jpg`) is longer than the maximum allowed length (50).","type":"maxlength","maxlength":50,"path":"orignalName","value":"7339228008392535-daniel-octavian-Wzj7rBxxMaw-unsplash.jpg"},"kind":"maxlength","path":"orignalName","value":"7339228008392535-daniel-octavian-Wzj7rBxxMaw-unsplash.jpg"}},"_message":"Image validation failed","level":"error","message":"Image validation failed: orignalName: Path `orignalName` (`7339228008392535-daniel-octavian-Wzj7rBxxMaw-unsplash.jpg`) is longer than the maximum allowed length (50)."}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"errno":-2,"code":"ENOENT","syscall":"stat","path":"/home/ajay/Desktop/Flupper/backend/dashboard/index.html","expose":false,"statusCode":404,"status":404,"level":"error","message":"ENOENT: no such file or directory, stat '/home/ajay/Desktop/Flupper/backend/dashboard/index.html'ENOENT: no such file or directory, stat '/home/ajay/Desktop/Flupper/backend/dashboard/index.html'","stack":"Error: ENOENT: no such file or directory, stat '/home/ajay/Desktop/Flupper/backend/dashboard/index.html'"}
+{"errno":-2,"code":"ENOENT","syscall":"stat","path":"/home/ajay/Desktop/Flupper/backend/dashboard/index.html","expose":false,"statusCode":404,"status":404,"level":"error","message":"ENOENT: no such file or directory, stat '/home/ajay/Desktop/Flupper/backend/dashboard/index.html'ENOENT: no such file or directory, stat '/home/ajay/Desktop/Flupper/backend/dashboard/index.html'","stack":"Error: ENOENT: no such file or directory, stat '/home/ajay/Desktop/Flupper/backend/dashboard/index.html'"}
+{"level":"error","message":"Cannot read property '1' of nullCannot read property '1' of null","stack":"TypeError: Cannot read property '1' of null\n    at Object.getStorageAccountName (/home/ajay/Desktop/Flupper/backend/app/utils/config.js:5:23)\n    at /home/ajay/Desktop/Flupper/backend/app/controllers/MasterController/image.controller.js:42:38\n    at Array.map (<anonymous>)\n    at getImage (/home/ajay/Desktop/Flupper/backend/app/controllers/MasterController/image.controller.js:40:23)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"errors":{"filename":{"properties":{"message":"Path `filename` is required.","type":"required","path":"filename"},"kind":"required","path":"filename"}},"_message":"Image validation failed","level":"error","message":"Image validation failed: filename: Path `filename` is required."}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
