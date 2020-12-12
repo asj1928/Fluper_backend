@@ -15,8 +15,8 @@ module.exports = function (server) {
      */
     // server.use(require("../middlewares/path.middleware"));
     server.use(morgan('tiny'))
-    server.use(express.json())
-    server.use(express.urlencoded({ extended: true }))
+    server.use(express.json({ limit: '50mb' }))
+    server.use(express.urlencoded({ limit: '50mb', extended: true }))
     server.use(helmet())
     // server.use((req,res,next)=>{
     //     console.log(req.headers);
